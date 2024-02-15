@@ -1,0 +1,51 @@
+.faq-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    flex: 0 0 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .sidebar li:hover {
+    background-color: #ddd;
+  }
+  
+  .faq-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .faq-question.active {
+    background-color: #ddd;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
